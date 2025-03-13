@@ -1,0 +1,27 @@
+{
+  "name": "buybots",
+  "version": "1.0.0",
+  "description": "Telegram BuyBot - untuk melacak pembelian token di blockchain",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "setup": "node setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.7.2",
+    "lowdb": "^5.1.0",
+    "mkdirp": "^1.0.4",
+    "node-telegram-bot-api": "^0.64.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
